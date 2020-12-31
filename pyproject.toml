@@ -12,6 +12,7 @@ scikit-learn = "^0.24.0"
 matplotlib = "^3.3.3"
 statsmodels = "^0.12.1"
 jupyterlab = "^3.0.0"
+miceforest = "^2.0.3"
 
 [tool.poetry.dev-dependencies]
 
