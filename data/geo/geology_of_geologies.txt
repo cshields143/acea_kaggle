@@ -1,0 +1,33 @@
+Station,GeologicalUnit,ItalianDescription,EnglishDescription,Period
+Tereglio,MAC,"Arenarie quarzoso-feldspatico-micacee gradate, in strati di potenza variabile, con livelli piu' sottili di siltiti","Graded quartz-feldspar-micaceous sandstones, in layers of varying strength, with finer levels of siltstone",UPPER OLIGOCENE - LOWER MIOCENE
+Vernio,TCG1,Torbiditi arenaceo pelitiche e silitico pelitiche. Sono presenti megatorbiditi,Pelitic arenaceous and pelitic silitic turbidites. There are mega-bids,AQUITANIANO p.p.
+Orentano,VILa,Conglomerati e ciottolami poligenici,Polygenic conglomerates and pebbles,RUSCINIANO-VILLAFRANCHIANO
+Simignano,CCA,Calcari dolomitici e dolomie grigie brecciati e con struttura a 'cellette' e dolomie  cariate (carniole),Dolomite limestones and gray dolomites brecciated and with 'cell' structure and carious dolomites (carniole),UPPER TRIASSIC
+Abbadia S. S. - Laghetto Verde,QRT,Colate laviche clastogeniche e colate laviche a blocchi di composizione trachidacitica derivate dal collasso di un mega duomo endogeno,Clastogenic lava flows and block lava flows of trachydacytic composition derived from the collapse of an endogenous mega dome,PLEISTOCENE
+David Lazzaretti,QRT,Colate laviche clastogeniche e colate laviche a blocchi di composizione trachidacitica derivate dal collasso di un mega duomo endogeno,Clastogenic lava flows and block lava flows of trachydacytic composition derived from the collapse of an endogenous mega dome,PLEISTOCENE
+S. Fiora 11bis,QRT,Colate laviche clastogeniche e colate laviche a blocchi di composizione trachidacitica derivate dal collasso di un mega duomo endogeno,Clastogenic lava flows and block lava flows of trachydacytic composition derived from the collapse of an endogenous mega dome,PLEISTOCENE
+S. Fiora 8,QRT,Colate laviche clastogeniche e colate laviche a blocchi di composizione trachidacitica derivate dal collasso di un mega duomo endogeno,Clastogenic lava flows and block lava flows of trachydacytic composition derived from the collapse of an endogenous mega dome,PLEISTOCENE
+Castel del Piano1,QRT,Colate laviche clastogeniche e colate laviche a blocchi di composizione trachidacitica derivate dal collasso di un mega duomo endogeno,Clastogenic lava flows and block lava flows of trachydacytic composition derived from the collapse of an endogenous mega dome,PLEISTOCENE
+Siena Poggio al Vento,PLIs,Sabbie e arenarie gialle.,Yellow sands and sandstones.,ZANCLEANO - PIACENZIANO
+Monticiano La Pineta,VEUa,Metaconglomerati quarzosi con matrice quarzitico-filladica da grigio-verde a violacea. Gli elementi sono costituiti in prevalenza da quarzo rosato e quarziti bianche o rosate,Quartz metaconglomerates with quartzite-filladic matrix from gray-green to purplish. The elements consist mainly of pink quartz and white or pink quartzites,LADINICO - CARNICO
+Stia,FAL3,membro arenaceo pelitico,pelitic arenaceous member,AQUITANIANO - BURDIGALIANO
+Abbadia S. Salvatore,SIL,Argilliti grigio-brune e calcilutiti,Gray-brown clay and calcilutite,UPPER CRETACE - PALEOCENE
+Fabbriche di Vallico,STO3,Membro delle Calcareniti di Montegrossi,Member of the Calcarenites of Montegrossi,LOWER CRETACE? - PALEOGEN
+Il Palagio,MAC,"Arenarie quarzoso-feldspatico-micacee gradate, in strati di potenza variabile, con livelli piu' sottili di siltiti","Graded quartz-feldspar-micaceous sandstones, in layers of varying strength, with finer levels of siltstone",UPPER OLIGOCENE - LOWER MIOCENE
+Le Croci (Barberino),AQR2,Membro pelitico-arenaceo,Pelitic-arenaceous member,CHATTIANO - BURDIGALIANO
+Abbadia S. S. - Vetta Amiata,BEL2,"Duomo esogeno costituito da lave massive di composizione da trachitica a trachidacitica, di colore variabile da grigio a rosa fino al rosso deciso, fortemente porfiriche, con presenza di megacristalli di K-feldspato","Exogenous dome consisting of massive lavas of composition from trachytic to trachydacytic, varying in color from gray to pink to decisive red, strongly porphyritic, with the presence of megacrystals of K-feldspar",PLEISTOCENE
+Marcoiano,AQR1,Membro arenaceo-pelitico,Arenaceous-pelitic member,CHATTIANO - BURDIGALIANO
+Mangona,AQR1,Membro arenaceo-pelitico,Arenaceous-pelitic member,CHATTIANO - BURDIGALIANO
+S. Fiora,BLP2,"Duomo esogeno costituito da lave massive di composizione trachitica di colore da grigio a rosso, a porfiricita' variabile, con presenza talvolta di megacristalli di K-feldspato.","Exogenous dome consisting of massive lavas of trachyte composition of gray to red color, with variable porphyricity, sometimes with the presence of K-feldspar megacrystals.",PLEISTOCENE
+Camaldoli,FAL2,Membro di Camaldoli,Member of Camaldoli,AQUITANIANO - BURDIGALIANO
+Consuma,FAL4,siltiti e arenarie,siltstones and sandstones,AQUITANIANO - BURDIGALIANO
+Pentolina,VILe,Sabbie e conglomerati,Sands and conglomerates,RUSCINIANO-VILLAFRANCHIANO
+Mensano,APA,Argilliti grigie e calcilutiti,Gray clay and calcilutite,LOWER CRETACE
+Sovicille,PLIs,Sabbie e arenarie gialle.,Yellow sands and sandstones.,ZANCLEANO - PIACENZIANO
+Calavorno,MAC,"Arenarie quarzoso-feldspatico-micacee gradate, in strati di potenza variabile, con livelli piu' sottili di siltiti","Graded quartz-feldspar-micaceous sandstones, in layers of varying strength, with finer levels of siltstone",UPPER OLIGOCENE - LOWER MIOCENE
+Laterina,VILh,Limi argilloso-sabbiosi ed argille sabbiose,Clayey-sandy silts and sandy clays,RUSCINIANO-VILLAFRANCHIANO
+Monte Serra,QMS2,Quarziti con fitta stratificazione incrociata,Quartzites with dense crossed stratification,CARNICO
+Monte S.Savino,VILc,Argille e argille sabbiose lignitifere lacustri e fluvio-lacustri,Lacustrine and fluvio-lacustrine lignitiferous sandy clays and clays,RUSCINIANO-VILLAFRANCHIANO
+Croce Arcana,CEV2,Membro del Torrente Fellicarolo. Torbiditi silicoclastiche,Member of the Fellicarolo stream. Siliciclastic turbidity,AQUITANIANO - LANGHIANO
+Bibbiena,VILc,Argille e argille sabbiose lignitifere lacustri e fluvio-lacustri,Lacustrine and fluvio-lacustrine lignitiferous sandy clays and clays,RUSCINIANO-VILLAFRANCHIANO
+Montalcinello,VILa,Conglomerati e ciottolami poligenici,Polygenic conglomerates and pebbles,RUSCINIANO-VILLAFRANCHIANO
