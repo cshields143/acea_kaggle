@@ -1,7 +1,5 @@
 import pandas as pd
-from .data import AuserDataset, DoganellaDataset, LucoDataset, PetrignanoDataset, AmiataDataset, LupaDataset, MadonnaDataset, ArnoDataset, BilancinoDataset
-import matplotlib.pyplot as plt
-import numpy as np
+from .data import WaterbodyScaler
 
 def calculate_errors(df):
     df['error'] = df['actual'] - df['predicted']
@@ -9,98 +7,101 @@ def calculate_errors(df):
     df['error_sq'] = df['error'] * df['error']
     return df
 
-def train_test_score(mdl, data, X, y):
-    a = []
-    p = []
+def train_test_score(mdl, X, y):
+
+    # "train" like so:
+    # - the first 2/3 of our data is always training data
+    # - train the model on all available training data
+    # - use this trained model to predict a single step into the future
+    # - add that single step, with its actual value, into the training data
+    # - retrain the model, predict the next step... etc
+
+    # store all the results: actual/predicted, normalized/unnormalized
+    true_scaled = []
+    pred_scaled = []
+    true_raw = []
+    pred_raw = []
+
+    # "sent" is our initial boundary between training/"testing" data
+    # "_last_" is the final datapoint for which we can both predict an
+    #     answer & grade that prediction
     sent = int(X.shape[0] * 0.67)
+    _last_ = X.shape[0] - 1
+    for i in range(sent, _last_):
 
-    for i in range(sent, X.shape[0] - 1):
+        # how many iterations are left? for sanity purposes
+        #print(f"!!!!! {_last_ - i + 1} !!!!!")
+
+        # isolate training features & targets
         X_train, y_train = X.iloc[:i], y.iloc[:i]
-        a.append(y.iloc[i])
-        p.append(mdl().fit(X_train, y_train).predict())
+        Xy = pd.concat((X_train, y_train), axis=1)
 
-    a = pd.DataFrame(a, index=y.iloc[sent:-1].index, columns=y.columns)
-    p = pd.DataFrame(p, index=y.iloc[sent:-1].index, columns=y.columns)
-    au = data.unscale(a)
-    pu = data.unscale(p)
+        # normalize the data (we have to do this here, and not
+        # somewhere else in the pipeline, because we don't
+        # want our training data to be marred by knowledge of
+        # all the future "testing" datapoints)
+        ws = WaterbodyScaler(Xy)
+        X_train_s, y_train_s = ws.scale(X_train), ws.scale(y_train)
 
+        # get our single testing datapoint & normalize it
+        # with the scaler that only saw training data
+        y_true = y.iloc[i:i+1]
+        y_true_s = ws.scale(y_true)
+
+        # create a model, train it (ON NORMALIZED DATA), & get a prediction
+        m = mdl()
+        m.fit(X_train_s, y_train_s)
+        y_pred_s = m.predict()
+
+        # turn the prediction into a dataframe
+        # (everything I'm doing here assumes there are column names...)
+        y_pred_s = pd.DataFrame([y_pred_s], columns=y.columns)
+
+        # UN-normalize our prediction
+        y_pred = ws.unscale(y_pred_s)
+
+        # record everything so we can analyze this data
+        # (UN-dataframe everything... we don't need columns
+        # anymore, just the straight values)
+        true_scaled.append(y_true_s.values[0].tolist())
+        pred_scaled.append(y_pred_s.values[0].tolist())
+        true_raw.append(y_true.values[0].tolist())
+        pred_raw.append(y_pred.values[0].tolist())
+
+    # turn our recordings into dataframes, for convenience
+    # (MAKE SURE TO RETAIN THE INDICES)
+    idx = y.iloc[sent:_last_].index
+    true_scaled = pd.DataFrame(true_scaled, index=idx, columns=y.columns)
+    pred_scaled = pd.DataFrame(pred_scaled, index=idx, columns=y.columns)
+    true_raw = pd.DataFrame(true_raw, index=idx, columns=y.columns)
+    pred_raw = pd.DataFrame(pred_raw, index=idx, columns=y.columns)
+
+    # NORMALIZED data needs to have error metrics calculated;
+    # UNNORMALIZED data still needs to be processed a little
+    # so that plotting is supes convenient
     metrics = {}
+    history = {}
     for c in y.columns:
-        s = pd.concat({'actual':a[c],'predicted':p[c]}, axis=1)
-        s.index = a.index
-        u = pd.concat({'actual':au[c],'predicted':pu[c]}, axis=1)
-        u.index = au.index
-        metrics[c] = {
-            'scaled': calculate_errors(s),
-            'unscaled': calculate_errors(u)
-        }
 
-    return metrics
+        # turn the truths & predictions for ONE COLUMN
+        # into its own dataframe (both for scaled & unscaled)
+        scaled = pd.concat({
+            'actual': true_scaled[c],
+            'predicted': pred_scaled[c]
+        }, axis=1)
+        raw = pd.concat({
+            'actual': true_raw[c],
+            'predicted': pred_raw[c]
+        }, axis=1)
 
-def plot_target_predictions(c, ch, mdl, scaled, unscaled, path):
+        # make sure we retain our indices
+        scaled.index = true_scaled.index
+        raw.index = true_raw.index
 
-    fig, axs = plt.subplots(1, 1, figsize=(10,5))
-    fig.suptitle(f"{c} | Chunk Size: {ch} | Model: {mdl}", fontweight='bold')
+        # calculate absolute & squared errors for the column
+        metrics[c] = calculate_errors(scaled)
 
-    axs.plot(unscaled['actual'])
-    axs.plot(unscaled['predicted'])
-    axs.set_title(f"Unscaled Data | RMSE {unscaled['error_sq'].mean() ** 0.5} | MAE {unscaled['error_abs'].mean()}")
-    axs.text(0,0,
-        f"Standardized Scores\nRMSE{scaled['error_sq'].mean() ** 0.5}\nMAE {scaled['error_abs'].mean()}",
-        transform=axs.transAxes)
+        # save the raw values for plotting later
+        history[c] = raw
 
-    plt.savefig(f"{path}{c}.png")
-
-def saved_validation(folder, chunk, mdl, ds):
-
-    base = f"{folder}{mdl.name}_{chunk}/{ds.type}/"
-    metrics = train_test_score(mdl, ds, ds.getX(), ds.gety())
-    rs = []
-    ms = []
-
-    for c in ds.targets:
-        s, u = metrics[c]['scaled'], metrics[c]['unscaled']
-        rs.append(s['error_sq'].mean() ** 0.5)
-        ms.append(s['error_abs'].mean())
-        plot_target_predictions(c, chunk, mdl.name, s, u, base)
-        metrics[c]['scaled'].to_csv(f"{base}{c}_scaled.csv")
-        metrics[c]['unscaled'].to_csv(f"{base}{c}_unscaled.csv")
-
-    return {
-        'rmse': np.mean(rs),
-        'mae': np.mean(ms)
-    }
-
-def validate_waterbody(folder, chunk, mdl, paths, classes):
-    datasets = list(c(p,chunk) for c,p in zip(classes,paths))
-    metrics = pd.DataFrame({ds.name:saved_validation(folder, chunk, mdl, ds) for ds in datasets})
-    metrics['overall'] = metrics.mean(axis=1)
-    metrics.to_csv(f"{folder}{mdl.name}_{chunk}/{datasets[0].type}/metrics.csv")
-    return metrics['overall']
-
-def validate_aquifers(folder, chunk, mdl, path):
-    return validate_waterbody(folder, chunk, mdl,
-        (f"{path}auser.csv", f"{path}doganella.csv", f"{path}luco.csv", f"{path}petrignano.csv"),
-        (AuserDataset, DoganellaDataset, LucoDataset, PetrignanoDataset))
-
-def validate_watersprings(folder, chunk, mdl, path):
-    return validate_waterbody(folder, chunk, mdl,
-        (f"{path}amiata.csv", f"{path}lupa.csv", f"{path}madonna_di_canneto.csv"),
-        (AmiataDataset, LupaDataset, MadonnaDataset))
-
-def validate_rivers(folder, chunk, mdl, path):
-    return validate_waterbody(folder, chunk, mdl, (f"{path}arno.csv",), (ArnoDataset,))
-
-def validate_lakes(folder, chunk, mdl, path):
-    return validate_waterbody(folder, chunk, mdl, (f"{path}bilancino.csv",), (BilancinoDataset,))
-
-def validate_model(folder, chunk, mdl, path):
-    am = validate_aquifers(folder, chunk, mdl, f"{path}aquifer/")
-    wm = validate_watersprings(folder, chunk, mdl, f"{path}waterspring/")
-    rm = validate_rivers(folder, chunk, mdl, f"{path}river/")
-    lm = validate_lakes(folder, chunk, mdl, f"{path}lake/")
-    bodies = {'aquifer':am,'waterspring':wm,'river':rm,'lake':lm}
-    scores = pd.concat(bodies, axis=1)
-    scores.index = am.index
-    scores['overall'] = scores.mean(axis=1)
-    scores.to_csv(f"{folder}{mdl.name}_{chunk}/metrics.csv")
+    return metrics, history

@@ -14,9 +14,6 @@ def date_as_index(df, col, format):
 def start_after(df, y, m, d):
     return df[df.index > datetime(y, m, d)]
 
-# engineering features
-# ...
-
 def trim_to_targets(df, y):
     notnulls = [df[~df[c].isnull()] for c in y]
     ends = [(nn.iloc[0].name, nn.iloc[-1].name) for nn in notnulls]
@@ -51,7 +48,14 @@ def multiply_impute(df):
     kernel.mice(3, verbose=False)
     return kernel.impute_new_data(df).complete_data(0)
 
-def aquifer_pipe(df, x, y):
+def calc_xs(cols, y):
+    notx = list(y) + ['Date']
+    cols = set(cols)
+    noncols = set(notx)
+    return list(cols - noncols)
+
+def aquifer_pipe(df, *y):
+    x = calc_xs(df.columns, y)
     df = date_as_index(df, 'Date', '%d/%m/%Y')
     df = trim_to_targets(df, y)
     df = reimpute_targets(df, y)
@@ -60,7 +64,8 @@ def aquifer_pipe(df, x, y):
     df = multiply_impute(df)
     return df
 
-def waterspring_pipe(df, x, y):
+def waterspring_pipe(df, *y):
+    x = calc_xs(df.columns, y)
     df = drop_where_null(df, 'Date')
     df = date_as_index(df, 'Date', '%d/%m/%Y')
     df = trim_to_targets(df, y)
@@ -69,7 +74,8 @@ def waterspring_pipe(df, x, y):
     df = multiply_impute(df)
     return df
 
-def river_pipe(df, x, y):
+def river_pipe(df, *y):
+    x = calc_xs(df.columns, y)
     df = drop_where_null(df, 'Date')
     df = date_as_index(df, 'Date', '%d/%m/%Y')
     df = trim_to_targets(df, y)
@@ -79,7 +85,7 @@ def river_pipe(df, x, y):
     df = multiply_impute(df)
     return df
 
-def lake_pipe(df, x, y):
+def lake_pipe(df, *y):
     df = date_as_index(df, 'Date', '%d/%m/%Y')
     df = start_after(df, 2004, 1, 1)
     df = absolute_columns(df, ['Rainfall', 'Flow_Rate', 'Lake_Level'])
