@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -it --mount type=bind,source=/home/chris/acea,target=/app cshields143/acea
