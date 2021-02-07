@@ -1,3 +1,6 @@
+    Figline e Incisa Valdarno
+    Scarperia e San Piero
+
 These features/locations could not be discovered in stazioni.csv:
 
     SAL (Depth_to_Groundwater)
@@ -37,3 +40,213 @@ These features/locations could not be discovered in stazioni.csv:
     Petrignano (Temperature)
     C10 Petrignano (Volume)
     Fiume Chiascio Petrignano (Hydrometry)
+
+These stations have more than one name associated with them:
+
+    TOS01001664 .. Volterra, Volterra1
+    TOS01002011 .. Miemo, Miemo9
+    TOS01002071 .. Gerfalco, Gerfalco1, Gerfalco9
+    TOS01002085 .. Anqua, Anqua9
+    TOS01002104 .. Montecastelli Pisano, Montecastelli Pisano9
+    TOS01002115 .. Ponsano, Ponsano9
+    TOS01002131 .. Montecatini V. Cecina, Montecatini V. Cecina9
+    TOS01002161 .. Libbiano, Libbiano9
+    TOS01002171 .. Canneto, Canneto9
+    TOS01002181 .. Sassa, Sassa9
+    TOS01002201 .. Montescudaio, Montescudaio9
+    TOS01002231 .. Riparbella, Riparbella9
+    TOS01002331 .. Serrazzano, Serrazzano9
+    TOS01005191 .. S. Giovanni alla Vena valle, S. Giovanni alla Vena valle2
+    TOS01005251 .. Bocca d'Arno, Bocca d'Arno1
+    TOS01005386 .. Ponte SR439, Ponte SR4399
+    TOS01005395 .. Montegemoli, Montegemoli9
+    TOS01005401 .. Ponte di Monterufoli, Ponte di Monterufoli9
+    TOS01005403 .. Case Grisella, Case Grisella9
+    TOS01005415 .. Steccaia, Steccaia9
+    TOS02000081 .. Cervaiole, Cervaiole1
+    TOS02000177 .. Orto di Donna1, Orto di Donna
+    TOS02000203 .. Villacollemandina1, Villacollemandina
+    TOS02000221 .. Casone di Profecchia, Casone di Profecchia1
+    TOS02004081 .. Torre del Lago, Torre del Lago1
+    TOS03002531 .. Roccastrada1, Roccastrada
+    TOS03002869 .. Monticchiello1, Monticchiello
+    TOS03002901 .. Castel del Piano1, Castel del Piano
+    TOS03005811 .. Castellina, Castellina1
+    TOS03005865 .. Podere Peretti, Podere Peretti1
+    TOS03005881 .. Ponte di Montemerano, Ponte di Montemerano1
+    TOS03005895 .. Marsiliana, Marsiliana1
+    TOS03006000 .. Giglio Porto, Giglio Porto1
+    TOS11000001 .. Metato, Metato3
+    TOS11000002 .. Cecina, Cecina3
+    TOS11000003 .. Donoratico, Donoratico3
+    TOS11000004 .. Venturina, Venturina3
+    TOS11000005 .. Rispescia, Rispescia3
+    TOS11000006 .. Capalbio, Capalbio3
+    TOS11000007 .. Albegna, Albegna3
+    TOS11000008 .. Braccagni, Braccagni3
+    TOS11000009 .. Bibbona, Bibbona3
+    TOS11000010 .. Santermo, Santermo3
+    TOS11000011 .. Lido di Camaiore, Lido di Camaiore3
+    TOS11000012 .. Portoferraio, Portoferraio3
+    TOS11000013 .. Casotto dei Pescatori, Casotto dei Pescatori3
+    TOS11000014 .. Pitigliano, Pitigliano3
+    TOS11000017 .. Borgo S. Lorenzo 2, Borgo S. Lorenzo 23
+    TOS11000019 .. Castelnuovo B.ga, Castelnuovo B.ga3
+    TOS11000020 .. Monte Serra, Monte Serra3
+    TOS11000021 .. Tavarnelle, Tavarnelle3
+    TOS11000022 .. Barberino, Barberino3
+    TOS11000025 .. Scorgiano, Scorgiano3
+    TOS11000026 .. Sestino, Sestino3
+    TOS11000027 .. Candia Scurtarola, Candia Scurtarola3, Candia Scurtarola1
+    TOS11000028 .. Carrara, Carrara3
+    TOS11000029 .. Campocecina, Campocecina3
+    TOS11000030 .. Fosdinovo, Fosdinovo3
+    TOS11000031 .. Montecarlo, Montecarlo3
+ ?  TOS11000032 .. S. Pietro a Marcigliano, S. Pietro a Marcigliano3
+    TOS11000033 .. Pieve di Compito, Pieve di Compito3
+    TOS11000034 .. Piazza al Serchio, Piazza al Serchio3
+    TOS11000035 .. S. Vincenzo, S. Vincenzo3
+    TOS11000036 .. Collesalvetti, Collesalvetti3
+    TOS11000037 .. Cesa, Cesa3
+    TOS11000039 .. Anghiari, Anghiari3
+    TOS11000040 .. Pieve S. Stefano, Pieve S. Stefano3
+    TOS11000041 .. Massa Marittima Valpiana, Massa Marittima Valpiana3
+    TOS11000043 .. Pomonte, Pomonte3
+    TOS11000044 .. Magliano, Magliano3
+    TOS11000045 .. S. Miniato Poggio al Pino, S. Miniato Poggio al Pino3
+    TOS11000046 .. Montopoli, Montopoli3
+    TOS11000047 .. Volterra Le Balze, Volterra Le Balze3
+    TOS11000048 .. Barga, Barga3
+    TOS11000051 .. Montenero, Montenero3
+    TOS11000052 .. S. Fiora, S. Fiora1, S. Fiora3
+    TOS11000054 .. Baccinello, Baccinello3
+    TOS11000055 .. Semproniano, Semproniano3
+    TOS11000056 .. Castelnuovo Val di Cecina, Castelnuovo Val di Cecina3, Castelnuovo Val di Cecina1
+    TOS11000058 .. Castiglione d'Orcia, Castiglione d'Orcia3
+    TOS11000060 .. Piancastagnaio, Piancastagnaio3
+    TOS11000061 .. Radicofani, Radicofani3
+    TOS11000062 .. Argiano, Argiano3
+    TOS11000063 .. Siberia, Siberia3
+    TOS11000064 .. Manciano Secchete, Manciano Secchete3
+    TOS11000066 .. Poggibonsi Montemorli, Poggibonsi Montemorli3
+    TOS11000067 .. Buonconvento, Buonconvento3
+    TOS11000068 .. Peccioli, Peccioli3
+    TOS11000069 .. Castagneto Carducci, Castagneto Carducci3
+    TOS11000070 .. Suvereto, Suvereto3
+    TOS11000071 .. Cerreto Guidi, Cerreto Guidi3
+    TOS11000073 .. Greve in Chianti, Greve in Chianti3
+    TOS11000074 .. Gambassi, Gambassi3
+    TOS11000075 .. Bagno a Ripoli, Bagno a Ripoli3
+    TOS11000076 .. Artimino, Artimino3
+    TOS11000077 .. Albano, Albano3
+    TOS11000078 .. Pratomagno, Pratomagno3
+    TOS11000079 .. Argentario, Argentario3
+    TOS11000080 .. Pentolina, Pentolina3
+    TOS11000082 .. Monteroni Arbia Biena, Monteroni Arbia Biena3
+    TOS11000084 .. Cortona S. Lorenzo, Cortona S. Lorenzo3
+    TOS11000088 .. Poggio Casciano, Poggio Casciano3
+    TOS11000091 .. Sorana, Sorana3
+    TOS11000096 .. Careggine, Careggine3
+    TOS11000098 .. Fivizzano, Fivizzano3
+    TOS11000100 .. Villafranca, Villafranca3
+    TOS11000101 .. Pontremoli, Pontremoli3
+    TOS11000102 .. Strettoia, Strettoia3
+    TOS11000105 .. Stia Monte, Stia Monte3
+    TOS11000106 .. Passo Radici, Passo Radici3
+    TOS11000107 .. Gorgona, Gorgona3
+    TOS11000108 .. Giogo, Giogo3
+    TOS11000109 .. Ponte a Moriano, Ponte a Moriano3
+    TOS11000111 .. Firenze Citta', Firenze Citta'3
+    TOS11000112 .. Cesa Collina, Cesa Collina3
+    TOS11000113 .. Montepulciano Azienda, Montepulciano Azienda3
+    TOS11000114 .. Abbadia S. S. - Laghetto Verde, Abbadia S. S. - Laghetto Verde3
+    TOS11000504 .. Monteboro, Monteboro3
+    TOS11000507 .. Legoli, Legoli3
+    TOS11000508 .. Orbetello, Orbetello3
+    TOS11000509 .. Monsummano, Monsummano3
+    TOS11000510 .. Prato Città, Prato Città3
+    TOS11000511 .. Monte Perone, Monte Perone3
+    TOS11000512 .. Monte Pisano Nord, Monte Pisano Nord3
+    TOS11000513 .. Quercianella, Quercianella3
+    TOS11000514 .. Lanciafame, Lanciafame3
+    TOS11000515 .. Cerreto Corliano, Cerreto Corliano3
+    TOS11000516 .. Casa Rota, Casa Rota2, Casa Rota3, Casa Rota1
+    TOS11000517 .. Il Pero, Il Pero3
+    TOS19000027 .. Candia Scurtarola2, Candia Scurtarola1, Candia Scurtarola5
+    TOS19000028 .. Carrara2, Carrara1
+    TOS19000029 .. Campocecina2, Campocecina1, Campocecina5
+    TOS19000030 .. Fosdinovo2, Fosdinovo1
+    TOS19000077 .. Albano2, Albano1, Albano6
+    TOS19000102 .. Strettoia2, Strettoia1
+    TOS19000115 .. Abbadia S. S. - Vetta Amiata1, Abbadia S. S. - Vetta Amiata
+    TOS19000517 .. Il Pero2, Il Pero1
+    TOS19000701 .. Monterchi, Monterchi1
+    TOS19000702 .. Pieve S. Stefano, Pieve S. Stefano1
+    TOS19000703 .. Palazzo del Pero, Palazzo del Pero1
+    TOS19000704 .. Grassina, Grassina1
+    TOS29000001 .. St. Martini, St. Martini1
+    TOS29000002 .. Pozzo 7 Staffoli, Pozzo 7 Staffoli1
+    TOS29000003 .. Tenuta agricola torre a Cenaia, Tenuta agricola torre a Cenaia1
+    TOS29000004 .. P13, P131
+    TOS29000005 .. P26, P261
+    TOS29000006 .. IP Figline, IP Figline1
+    TOS29000007 .. Ex Campo CIGAF, Ex Campo CIGAF1
+    TOS29000008 .. Isola - Bocca di Elsa, Isola - Bocca di Elsa1
+    TOS29000009 .. I.T.I.S. S. G. Valdarno, I.T.I.S. S. G. Valdarno1
+    TOS29000010 .. Liceo scientifico Montevarchi, Liceo scientifico Montevarchi1
+    TOS29000011 .. Montioncello, Montioncello1
+    TOS29000012 .. Piez. 14 Strillaie, Piez. 14 Strillaie1
+    TOS29000013 .. Piez 19 Strillaie, Piez 19 Strillaie1
+    TOS29000014 .. Via Aiale, Via Aiale1
+    TOS29000015 .. Cave Quarata, Cave Quarata1
+    TOS29000016 .. Certaldo, Certaldo1
+    TOS29000017 .. Cefalonia, Cefalonia1
+    TOS29000018 .. Via Giusti, Via Giusti1
+    TOS29000019 .. Terna, Terna1
+    TOS29000020 .. Giardino Val Gardena, Giardino Val Gardena1
+    TOS29000021 .. Pozzo Aquilani, Pozzo Aquilani1
+    TOS29000022 .. Via Berchet, Via Berchet1
+    TOS29000023 .. Pozzo Corsica, Pozzo Corsica1
+    TOS29000024 .. Europa, Europa1
+    TOS29000025 .. Via Nino Bixio, Via Nino Bixio1
+    TOS29000027 .. Piez. Guardamare, Piez. Guardamare1
+    TOS29000028 .. Diecimo, Diecimo1
+    TOS29000029 .. I Gofi, I Gofi1
+    TOS29000030 .. Podere Cipollini, Podere Cipollini1
+    TOS29000032 .. P.10745, P.107451
+    TOS29000033 .. Casalta 4, Casalta 41
+    TOS29000034 .. La Gracchia, La Gracchia1
+    TOS29000035 .. La Querce, La Querce1
+    TOS29000036 .. Maliseti, Maliseti1
+    TOS29000037 .. RMS 51, RMS 511
+    TOS29000038 .. Podere Steccaie, Podere Steccaie1
+    TOS29000039 .. Pozzo S.Piero, Pozzo S.Piero1
+    TOS29000040 .. Pozzo Le Chiane, Pozzo Le Chiane1
+    TOS29000041 .. P. 13588, P. 135881
+    TOS29000042 .. RMS 18, RMS 181
+    TOS29000043 .. RMS 37, RMS 371
+    TOS29000044 .. S. Donato, S. Donato1
+    TOS29000045 .. Venturina Ex Aeroporto, Venturina Ex Aeroporto1
+    TOS29000055 .. David Lazzaretti, David Lazzaretti1
+    TOS29000056 .. Coltano, Coltano1
+    TOS29000057 .. Ospedaletto, Ospedaletto1
+    TOS29000058 .. D1_P_S_Rossore, D1_P_S_Rossore1
+    TOS29000059 .. D2_P_S_Rossore, D2_P_S_Rossore1
+    TOS29000060 .. D4_P_S_Rossore, D4_P_S_Rossore1
+    TOS29000061 .. D6_P_S_Rossore, D6_P_S_Rossore1
+    TOS29000062 .. D7_P_S_Rossore, D7_P_S_Rossore1
+    TOS29000063 .. Pisa_P_Dante, Pisa_P_Dante1
+    TOS29000064 .. Piez. Arezzo, Piez. Arezzo1
+    TOS29000065 .. Piez. Val di Chio, Piez. Val di Chio1
+    TOS29000066 .. Piez. La Fratta, Piez. La Fratta1
+    TOS29000067 .. Piez. Villa Oppiello, Piez. Villa Oppiello1
+    TOS29000068 .. Piez. Le Chianacce, Piez. Le Chianacce1
+    TOS29000069 .. Piez. S.Colomba, Piez. S.Colomba1
+    TOS29000070 .. Piez. A - Albinia, Piez. A - Albinia1
+    TOS29000071 .. Piez. B - La Parrina, Piez. B - La Parrina1
+    TOS29000072 .. Piez. C - Braccagni, Piez. C - Braccagni1
+    TOS29000073 .. Piez. D - Fosso dei Pescatori, Piez. D - Fosso dei Pescatori1
+    TOS29000074 .. Piez. F - Alberese, Piez. F - Alberese1
+    TOS29000075 .. Piez. G - La Trappola, Piez. G - La Trappola1
+    TOS29000695 .. Piano Cortolla BIS, Piano Cortolla BIS1
+    TOS29000697 .. Depuratore S7, Depuratore S72, Depuratore S74
