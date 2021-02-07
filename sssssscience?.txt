@@ -1,0 +1,89 @@
+AUSER
+
+    Two subsystems: NORTH and SOUTH; NORTH partly influences SOUTH
+    NORTH levels: SAL, PAG, CoS, DIEC
+    SOUTH levels: LT2
+
+
+
+DOGANELLA
+
+    Kinda a aquifer, kinda a "well field fed by two u.g. aquifers" (is there a difference?)
+    Upper stratum is a "water table" 30m thick
+    Lower stratum is a semi-confined artesian aquifer 50m thick
+
+
+
+LUCO
+
+    U.g. aquifer, not fed by rivers or lakes; fed by "meteoric infiltration"
+    Accessed through wells
+
+
+
+PETRIGNANO
+
+    Fed by 3 u.g. aquifers separated by low permeability septa
+    "The water table can be considered groundwater" & is fed by Chiascio river
+
+
+
+AMIATA
+
+    Kinda a waterspring, kinda a aquifer
+    Accessed through Ermicciolo, Arbure, Bugnano, & Galleria Alta springs
+    Levels/volumes of springs influenced by:
+        - pluviometry
+        - sub-gradation
+        - hydrometry
+        - temperatures
+        - drainage volumes
+
+
+
+LUPA
+
+    Located in Arrone area
+    Used for drinking use
+
+
+
+MADONNA DI CANNETO
+
+    1,010m above sea level in Canneto valley
+    "Does not consist of an aquifer"
+    "Source" is supplied by "the water catchment area of the river Melfa"
+
+
+
+ARNO
+
+    Second largest river in peninsular Italy (by what metric?)
+    Main waterway in Tuscany
+    Relatively torrential regime due to surrounding soils (marl, impermeable clays)
+
+
+
+BILANCINO
+
+    Artificial lake in Mugello, Florence
+    Max depth of 31m
+    Surface area of 5km²
+
+
+
+----------
+
+    ** = "super important type of feature", "every dataset uses this"
+     * = "also super important", "ALMOST every dataset uses this"
+     + = "kinda important", "50/50 datasets use this"
+
+ ** Rainfall: mm
+  * Temperature: °C (AIR temperature)
+  + Depth to Groundwater: m (groundwater level in "ground level", or m from "ground floor")
+    Volume: m³ (amount of water taken from a drinking water treatment plant)
+    Hydrometry: m (groundwater or river level)
+    Flow Rate: DIFFERENT DEPENDING ON WATERBODY TYPE
+        Waterspring: l/s ("taken from the water spring")
+        Lake: m³/s ("lake's flow rate" ???)
+    Lake Level: m (any real difference from hydrometry?)
