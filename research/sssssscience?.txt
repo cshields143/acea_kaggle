@@ -82,7 +82,7 @@ BILANCINO
   * Temperature: °C (AIR temperature)
   + Depth to Groundwater: m (groundwater level in "ground level", or m from "ground floor")
     Volume: m³ (amount of water taken from a drinking water treatment plant)
-    Hydrometry: m (groundwater or river level)
+    Hydrometry: m (groundwater or river level) (any real difference with D2GW?)
     Flow Rate: DIFFERENT DEPENDING ON WATERBODY TYPE
         Waterspring: l/s ("taken from the water spring")
         Lake: m³/s ("lake's flow rate" ???)
