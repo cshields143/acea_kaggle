@@ -1,0 +1,308 @@
+{
+  "type": "umap",
+  "uri": "https://umap.openstreetmap.fr/en/map/untitled-map_560031#10/43.7513/11.5974",
+  "properties": {
+    "easing": true,
+    "embedControl": true,
+    "fullscreenControl": true,
+    "searchControl": true,
+    "datalayersControl": true,
+    "zoomControl": true,
+    "slideshow": {},
+    "captionBar": false,
+    "limitBounds": {},
+    "tilelayer": {
+      "minZoom": 0,
+      "maxZoom": 18,
+      "attribution": "Tiles courtesy of [[https://www.jawg.io/|jawgmaps]] - Map data [[http://osm.org/copyright/|&copy; OpenStreetMap contributors]], under ODbL.",
+      "url_template": "https://tile.jawg.io/{z}/{x}/{y}.png?api-key=community",
+      "name": "OSM Street (jawgmaps)",
+      "tms": false
+    },
+    "licence": "",
+    "description": "",
+    "name": "Untitled map",
+    "displayPopupFooter": false,
+    "miniMap": false,
+    "moreControl": true,
+    "scaleControl": true,
+    "scrollWheelZoom": true,
+    "zoom": 10
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.615295410156252,
+      43.70759350405296
+    ]
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Green"
+            },
+            "name": "Nave di Rosano"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.422816,
+              43.771197
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true
+            },
+            "name": "Bibbiena"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.830949,
+              43.714149
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true
+            },
+            "name": "Camaldoli"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.817376,
+              43.810416
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true
+            },
+            "name": "Cavallina"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.23742,
+              43.983567
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true
+            },
+            "name": "Consuma"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.585201,
+              43.784466
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true
+            },
+            "name": "Laterina"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.716307,
+              43.508954
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true
+            },
+            "name": "Mangona"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.195636,
+              44.050061
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true
+            },
+            "name": "Montevarchi"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.566208,
+              43.541212
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true
+            },
+            "name": "S. Agata"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.337209,
+              44.020694
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true
+            },
+            "name": "S. Piero"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.328013,
+              43.965105
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true
+            },
+            "name": "S. Savino"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.742346,
+              43.339127
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true
+            },
+            "name": "Stia"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.717606,
+              43.801781
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true
+            },
+            "name": "Incisa"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.456191,
+              43.689849
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true
+            },
+            "name": "Le Croci"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.271254,
+              44.00703
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true
+            },
+            "name": "Vernio"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.149634,
+              44.036938
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "DarkRed"
+            },
+            "name": "Firenze"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.258056,
+              43.779197
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "name": "Layer 1",
+        "id": 1589533
+      }
+    }
+  ]
+}
