@@ -1,0 +1,188 @@
+{
+  "type": "umap",
+  "uri": "https://umap.openstreetmap.fr/en/map/new/#12/42.8890/11.6493",
+  "properties": {
+    "easing": true,
+    "embedControl": true,
+    "fullscreenControl": true,
+    "searchControl": true,
+    "datalayersControl": true,
+    "zoomControl": true,
+    "slideshow": {},
+    "captionBar": false,
+    "limitBounds": {},
+    "tilelayer": {
+      "minZoom": 0,
+      "maxZoom": 18,
+      "attribution": "Tiles courtesy of [[https://www.jawg.io/|jawgmaps]] - Map data [[http://osm.org/copyright/|&copy; OpenStreetMap contributors]], under ODbL.",
+      "url_template": "https://tile.jawg.io/{z}/{x}/{y}.png?api-key=community",
+      "name": "OSM Street (jawgmaps)",
+      "tms": false
+    },
+    "licence": "",
+    "description": "",
+    "name": "Untitled map",
+    "displayPopupFooter": false,
+    "miniMap": false,
+    "moreControl": true,
+    "scaleControl": true,
+    "scrollWheelZoom": true,
+    "zoom": 6
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2,
+      51
+    ]
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true,
+              "color": "BlueViolet",
+              "labelDirection": "top"
+            },
+            "name": "Abbadia S. Salvatore"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.669369,
+              42.894344
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true
+            },
+            "name": "Castel del Piano"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.52671,
+              42.893956
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "DarkGreen",
+              "showLabel": true
+            },
+            "name": "David Lazzaretti"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.602777,
+              42.859722
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "BlueViolet",
+              "showLabel": true
+            },
+            "name": "Laghetto Verde"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.661623,
+              42.883103
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "BlueViolet",
+              "showLabel": true
+            },
+            "name": "S. Fiora"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.555793,
+              42.85448
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "DarkGreen",
+              "showLabel": true
+            },
+            "name": "S. Fiora 8"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.585775,
+              42.838184
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "DarkGreen",
+              "showLabel": true,
+              "labelDirection": "left"
+            },
+            "name": "S. Fiora 11bis"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.584455,
+              42.838214
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "showLabel": true,
+              "labelDirection": "left"
+            },
+            "name": "Vetta Amiata"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6252,
+              42.8901
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "name": "Layer 1"
+      }
+    }
+  ]
+}
