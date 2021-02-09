@@ -29,19 +29,29 @@ Vernio .......... Rainfall ..... 44.056676, 11.120557,  695.00
 
 Specific stations were chosen based on plotting them on a map and picking the one that looked the rightest
 
-43.771197 11.422816
-43.714149 11.830949
-43.810416 11.817376
-43.983567 11.23742
-43.784466 11.585201
-43.508954 11.716307
-44.050061 11.195636
-43.541212 11.566208
-44.020694 11.337209
-43.965105 11.328013
-43.339127 11.742346
-43.801781 11.717606
-43.689849 11.456191
-44.007030 11.271254
-44.036938 11.149634
-43.779197 11.258056
+Nave di Rosano 43.771197 11.422816
+Bibbiena 43.714149 11.830949
+Camaldoli 43.810416 11.817376
+Cavallina 43.983567 11.23742
+Consuma 43.784466 11.585201
+Laterina 43.508954 11.716307
+Mangona 44.050061 11.195636
+Montevarchi 43.541212 11.566208
+S. Agata 44.020694 11.337209
+S. Piero 43.965105 11.328013
+S. Savino 43.339127 11.742346
+Stia 43.801781 11.717606
+Incisa 43.689849 11.456191
+Le Croci 44.007030 11.271254
+Vernio 44.036938 11.149634
+Firenze 43.779197 11.258056
+
+---
+
+NOTES FROM THE MAPPING:
+
+- Firenze is about 12km away from Nave di Rosano; does this make its temperature useless?
+- S. Savino is about 16km away from the Arno & does not seem to feed any branches (but according to [catchment map] it is still part of the Arno catchment); ditto for Consuma (~10km) and Camaldoli (~8km)
+- Pretty much on top of the river: Stia, Bibbiena, Laterina, Montevarchi, & Incisa
+- Le Croci, Cavallina, & S. Piero feed Lake Bilancino/River Sieve (which connects to Arno); S. Agata & Mangona are a little further away, but seem to as well
+- Vernio sits right on the river Bisenzio--which does connect to the Arno, but *after* Nave di Rosano
