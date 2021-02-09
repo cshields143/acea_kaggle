@@ -1,0 +1,31 @@
+Borgo a Mozzano ....... Rainfall ..... 43.979877 10.551510
+Calavorno ............. Rainfall ..... 44.01975  10.535103
+Croce Arcana .......... Rainfall ..... 44.129883 10.781536
+Fabbriche di Vallico .. Rainfall ..... 43.999596 10.432135
+Gallicano ............. Rainfall ..... 44.064125 10.442982
+Monte S. Quirico ...... Hydrometry ... 43.857255 10.506863
+Orentano .............. Rainfall ..... 43.774425 10.657082
+                        Temperature
+Orto Botanico ......... Temperature .. 43.841864 10.51086
+Piaggione ............. Rainfall ..... 43.929353 10.514275
+                        Hydrometry
+Ponte a Moriano ....... Temperature .. 43.890091 10.529101
+Pontetetto ............ Rainfall ..... 43.829653 10.469765
+Tereglio .............. Rainfall ..... 44.059846 10.567786
+
+
+
+Monte Serra .. Rainfall ..... 43.751788 10.55500 <-- use this one
+               Temperature    43.747072 10.55446
+
+The two Monte Serra locations are only 500m apart, so I arbitrarily decided to use the first one
+
+Besides the targets, the following features were *also* un-findable in stazioni.csv:
+
+- Depth_to_Groundwater_PAG
+- Depth_to_Groundwater_DIEC
+- Volume_POL
+- Volume_CC1
+- Volume_CC2
+- Volume_CSA
+- Volume_CSAL
