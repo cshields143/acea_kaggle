@@ -1,0 +1,18 @@
+Arbure ................ Flow Rate
+Bugnano ............... Flow Rate
+Ermicciolo ............ Flow Rate
+Galleria Alta ......... Flow Rate
+
+
+
+Abbadia S. Salvatore .. Rainfall .............. 42.894344 11.669369
+                     .. Temperature ...........
+Castel del Piano ...... Rainfall .............. 42.893956 11.526710
+David Lazzaretti ...... Depth to Groundwater .. 42.859722 11.602777
+Laghetto Verde ........ Rainfall .............. 42.883103 11.661623
+               ........ Temperature ...........
+S. Fiora .............. Rainfall .............. 42.85448  11.555793
+         .............. Temperature ...........
+S. Fiora 8 ............ Depth to Groundwater .. 42.838184 11.585775
+S. Fiora 11bis ........ Depth to Groundwater .. 42.838214 11.584455
+Vetta Amiata .......... Rainfall .............. 42.8901   11.6252
