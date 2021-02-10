@@ -1,0 +1,29 @@
+Podere Casetta .. Depth to Groundwater .. 43.252262 11.225785
+
+
+
+Mensano .. Rainfall .. 43.291376 11.071148
+           Temperature
+Montalcinello .. Rainfall .. 43.203111 11.07662
+Monteroni Arbia Biena .. Rainfall .. 43.243014 11.416887
+                         Temperature
+Monticiano la Pineta .. Rainfall .. 43.134374 11.242022
+Pentolina .. Rainfall .. 43.208502 11.179902
+             Temperature
+Ponte Orgia .. Rainfall .. 43.214645 11.258112
+Scorgiano .. Rainfall .. 43.366271 11.151425
+Siena Poggio al Vento .. Rainfall .. 43.320448 11.312592
+                         Temperature
+Simignano .. Rainfall .. 43.29205 11.167234
+Sovicille .. Rainfall .. 43.276294 11.229860
+
+
+
+Features that could not be found:
+
+- Depth_to_Groundwater_Pozzo_1
+- Depth_to_Groundwater_Pozzo_3
+- Depth_to_Groundwater_Pozzo_4
+- Volume_Pozzo_1
+- Volume_Pozzo_3
+- Volume_Pozzo_4
