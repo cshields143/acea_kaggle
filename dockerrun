@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -p 8888:8888 --mount type=bind,source=/home/chris/Desktop/acea,target=/tf/app cshields143/acea
+docker run -p 8888:8888 --mount type=bind,source=/home/chris/Projects/acea_kaggle/acea,target=/tf/app cshields143/acea

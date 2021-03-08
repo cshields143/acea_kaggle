@@ -7,7 +7,7 @@ def calculate_errors(df):
     df['error_sq'] = df['error'] * df['error']
     return df
 
-def train_test_score(mdl, X, y):
+def train_test_and_score(mdl, X, y):
 
     # "train" like so:
     # - the first 2/3 of our data is always training data
